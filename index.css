@@ -1,35 +1,76 @@
-body{
-  background-color: cornsilk;
+.body{
+  margin: 0;
 }
-.flex-container {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-#photo{
-  border-radius: 50%;
-  border: 1px solid #ddd;
-  padding: 5px;
-  width: 150px;
-}
-p{
-  text-align: justify;
-  font-size: 18px;
-  width:1000px;
-  background-color: rgb(245, 223, 195);
-  padding: 10px;
-  border:15px solid burlywood ;
-  border-radius: 8px;
+.intro-container{
+  height:300px;
+  background-color: #ffe7ff;
   
 }
+.title{
+  text-align: center;
+  color: white;
+  font-family:ubuntu;
+  background-color:darkmagenta;
+  border-radius: 10px;
+  box-shadow:0px 10px #be89be;
+}
+#mypic{
+  float: left;
+  border-radius: 50%;
+  border: 1px solid white;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  margin-left: 300px;
+  margin-top:40px;
+  background-color: darkmagenta;
+  box-shadow: 5px 10px #784d78;
+}
+  
+#bio{
+  margin-right: 65px;
+  float: right;
+  width: 700px;
+  text-align: justify;
+  font-family:ubuntu;
+  color: darkmagenta;
+  font-size: larger;
+}
 .skills-container{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding:5px;
-    margin:10px;
+ display: flex;
+ gap:215px;
+ padding: 10px;
+}
+.skillogo{
+  width:150px ;
+  height:150px;
+}
+.contact-container{
+  background-color: whitesmoke;
+}
+.map-container{
+  padding:10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
 }
 #map{
-  margin: 10px;
+  width:600px;
+  height:450px;
+  border:0px;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  padding:8px;
+}
+.links{
+  width:50px;
+  height: 50px;
+}
+#copyright{
+  display: flex;
+  justify-content: center;
+  color:red;
+  font-size: 15px;
 }
