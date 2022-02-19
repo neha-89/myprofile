@@ -21,7 +21,7 @@ body{
   position: absolute;
   background-color:rgba(4,48,4,0.68)
 }
-.container{
+.title{
   position: absolute;
   
   display: flex;
