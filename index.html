@@ -3,30 +3,76 @@
    <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <link href="index.css" rel="stylesheet">
-        <title>My Profile</title>
+    <link href="index.css" rel="stylesheet">
+    <title>My Profile</title>
   </head>
   <body>
     <header>
-    <div class="image-container">
-        <div class="title">
-            <img id="mypic" src="https://i.ibb.co/VCJ5Ffx/IMG-20210119-205155-2.jpg" 
-            alt="myimage "/>
-            <div class="title">
-                <p>NEHA SONTAKKE</p>  
-                <p id="subheading">Web Developer</p>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarExample01"
+            aria-controls="navbarExample01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarExample01">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Professional Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Education</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="https://twitter.com/NehaSontakke6"><img src="https://i.ibb.co/m4RM19S/pngegg.png" alt="twitter" width="50px" height="50px"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/neha-sontakke-aa0992215/"><img src="https://i.ibb.co/tBr08yH/pngfind-com-linkedin-icon-png-571935.png" alt="linkedin"  width="50px" height="50px"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/neha-89"><img src="https://i.ibb.co/vqKkSKQ/pngwing-com.png" alt="github"  width="50px" height="50px"></a>
+                </li>
+              </ul>
             </div>
-             
-            <div class="social">
-             
-             <a href="#" target="_blank"><img src="https://i.ibb.co/m4RM19S/pngegg.png" alt="pngegg" width="50px" height="50px"></a>
-             <a href="#" target="_blank"><img src="https://i.ibb.co/tBr08yH/pngfind-com-linkedin-icon-png-571935.png" alt="pngfind-com-linkedin-icon-png-571935"  width="50px" height="50px"></a>
-             <a href="#" target="_blank"><img src="https://i.ibb.co/vqKkSKQ/pngwing-com.png" alt="pngwing-com"  width="50px" height="50px"></a>
-             
-         </div> 
+          </div>
         </div>
-           
-    </div>
+      </nav>
+      <!-- Navbar -->
+    
+      <!-- Background image -->
+      <div
+        id="intro-example"
+        class=" text-center bg-image">
+        <div class="mask">
+          <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="text-white">
+              <img id="mypic" src="https://i.ibb.co/VCJ5Ffx/IMG-20210119-205155-2.jpg" 
+            alt="myimage "/>
+              <h1 class="mb-3">Neha Sontakke</h1>
+              <h5 class="mb-4">Web Developer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    
     </header>
     <div class="container ">
         <div class="card shadow p-3 mb-5 bg-body rounded text-center">
@@ -48,6 +94,7 @@
                 <img src="https://i.ibb.co/K2mqfrN/html5-logo-31822.png" alt="html5-logo-31822" width="150px" height="150px">
                 <img src="https://i.ibb.co/CsLfjnL/Java-Script-logo-PNG1.png" alt="Java-Script-logo-PNG1" width="150px" height="150px">
                 <img src="https://i.ibb.co/NK9GLM4/Png-Item-241404.png" alt="Png-Item-241404" width="150px" height="150px" >
+                <img src="https://i.ibb.co/cQDjSTs/bootstrap.png" alt="bootstrap" width="150px" height="150px">
             </div>
           </div>
           <div class="card shadow p-3 mb-3 bg-body rounded text-center">
@@ -57,22 +104,24 @@
             <div class="card-body">
                 <div class="row">
                     <div class="col-sm-6">
-                      <div class="card">
-                        <img src="./pro2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Zomato</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card bg-dark text-white">
+                        <img src="./pro1.png" class="card-img" alt="Stony Beach"/>
+                        <div class="card-img-overlay">
+                          <a href="#" class="btn btn-outline-light">Zomato</a>
+                          <p class="card-text">
+                            The Zomato site
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div class="col-sm-6">
-                      <div class="card">
-                        <img src="./pro2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Salon website</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                      <div class="card bg-dark text-white">
+                        <img src="./pro2.png" class="card-img" alt="Stony Beach"/>
+                        <div class="card-img-overlay">
+                          <a href="#" class="btn btn-outline-light">Salon</a>
+                          <p class="card-text">
+                            The Salon site
+                          </p>
                         </div>
                       </div>
                     </div>
